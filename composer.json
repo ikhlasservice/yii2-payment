@@ -1,13 +1,13 @@
 {
-    "name": "ikhlasservice/yii2-customer",
-    "description": "Yii2 for customer management system.",
+    "name": "ikhlasservice/yii2-payment",
+    "description": "Yii2 for payment management system.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/ikhlasservice/yii2-customer.git",
-        "issues": "https://github.com/ikhlasservice/yii2-customer/issues"
+        "source": "https://github.com/ikhlasservice/yii2-payment.git",
+        "issues": "https://github.com/ikhlasservice/yii2-payment/issues"
     },
     "authors": [
         {
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ikhlas\\customer\\": ""
+            "ikhlas\\payment\\": ""
         }
     },
     "extra": {
