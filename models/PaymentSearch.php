@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\payment\models;
+namespace ikhlas\payment\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\payment\models\Payment;
+use ikhlas\payment\models\Payment;
 
 /**
- * PaymentSearch represents the model behind the search form about `backend\modules\payment\models\Payment`.
+ * PaymentSearch represents the model behind the search form about `ikhlas\payment\models\Payment`.
  */
 class PaymentSearch extends Payment {
 

@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\payment\models\Payment */
+/* @var $model ikhlas\payment\models\Payment */
 
 $this->title = Yii::t('payment', 'Update {modelClass}: ', [
     'modelClass' => 'Payment',

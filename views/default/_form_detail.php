@@ -6,10 +6,10 @@ use yii\web\JsExpression;
 use kartik\widgets\Typeahead;
 use yii\widgets\MaskedInput;
 use wbraganca\dynamicform\DynamicFormWidget;
-use backend\modules\payment\models\PaymentDetail;
+use ikhlas\payment\models\PaymentDetail;
 use backend\modules\customer\models\Customer;
 use yii\bootstrap\Modal;
-use backend\modules\payment\models\Payment;
+use ikhlas\payment\models\Payment;
 
 $labelPaymentDetail = new PaymentDetail;
 $labelCustomer = new Customer;
@@ -319,6 +319,6 @@ $this->registerCss('
 
 ');
 
-$base = backend\modules\payment\assets\AppAsset::register($this);
+$base = ikhlas\payment\assets\AppAsset::register($this);
 $this->registerJsFile($base->baseUrl . '/js/script.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
 ?>

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use kartik\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\payment\models\Payment */
+/* @var $model ikhlas\payment\models\Payment */
 
 $this->title = Yii::t('payment', 'สร้างใบนำส่ง');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('payment', 'การชำระเงิน'), 'url' => ['index']];

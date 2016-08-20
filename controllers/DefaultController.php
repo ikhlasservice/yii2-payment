@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\payment\controllers;
+namespace ikhlas\payment\controllers;
 
 use Yii;
-use backend\modules\payment\models\Payment;
-use backend\modules\payment\models\PaymentSearch;
+use ikhlas\payment\models\Payment;
+use ikhlas\payment\models\PaymentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use backend\modules\payment\models\PaymentDetail;
+use ikhlas\payment\models\PaymentDetail;
 use common\models\Model as Models;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
@@ -340,7 +340,7 @@ class DefaultController extends Controller {
             $model->paid_at = time();
             $model->status = 1;
             if ($model->save()) {
-                $modelProgress = new \backend\modules\payment\models\PaymentProgress();
+                $modelProgress = new \ikhlas\payment\models\PaymentProgress();
 
                 $modelProgress->status = null;
                 $modelProgress->comment = 'ยื่นเสนอพิจารณา';

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\payment\models\PaymentProgress */
+/* @var $model ikhlas\payment\models\PaymentProgress */
 
 $this->title = Yii::t('payment', 'Create Payment Progress');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('payment', 'Payment Progresses'), 'url' => ['index']];

@@ -5,7 +5,7 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\payment\models\RepairConsiderSearch */
+/* @var $searchModel ikhlas\payment\models\RepairConsiderSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('payment', 'Payments');
@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     'id',
                     [
                         'attribute' => 'status',
-                        'filter' => \backend\modules\payment\models\Payment::getItemStatus(),
+                        'filter' => \ikhlas\payment\models\Payment::getItemStatus(),
                         'format' => 'html',
                         'value' => 'statusLabel'
                     ],

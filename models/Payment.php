@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\payment\models;
+namespace ikhlas\payment\models;
 
 use Yii;
 use yii\helpers\ArrayHelper;

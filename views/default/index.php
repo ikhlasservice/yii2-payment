@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\payment\models\PaymentSearch */
+/* @var $searchModel ikhlas\payment\models\PaymentSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('payment', 'รายการทั้งหมด');
@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class='box-body pad'>
         <?php
-        Html::dropDownList(\backend\modules\payment\models\Payment::getItemStatus());
+        Html::dropDownList(\ikhlas\payment\models\Payment::getItemStatus());
         ?>
 
 
@@ -38,7 +38,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 ],
                 [
                     'attribute' => 'seller.displayname',
-//                    'filter' => \backend\modules\payment\models\Payment::getItemStatus(),
+//                    'filter' => \ikhlas\payment\models\Payment::getItemStatus(),
 //                    'format' => 'html',
 //                    'value' => 'statusLabel'
                     'visible'=>Yii::$app->user->can('staff')
@@ -46,7 +46,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 //'data:ntext',
                 [
                     'attribute' => 'status',
-                    'filter' => \backend\modules\payment\models\Payment::getItemStatus(),
+                    'filter' => \ikhlas\payment\models\Payment::getItemStatus(),
                     'format' => 'html',
                     'value' => 'statusLabel'
                 ],

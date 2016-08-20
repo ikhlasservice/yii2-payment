@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use backend\modules\payment\models\PaymentProgress;
+use ikhlas\payment\models\PaymentProgress;
 use yii\widgets\MaskedInput;
 
 

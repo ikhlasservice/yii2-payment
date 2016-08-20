@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\payment\models;
+namespace ikhlas\payment\models;
 
 use Yii;
 use backend\modules\credit\models\Contract;
@@ -101,7 +101,7 @@ class PaymentDetail extends \yii\db\ActiveRecord {
      */
 
     public static function getPeriodPay($contract_id) {
-        $model = \backend\modules\payment\models\PaymentDetail::find()
+        $model = \ikhlas\payment\models\PaymentDetail::find()
                 ->joinWith('contract')
                 ->joinWith('payment')
                 ->where([

@@ -1,14 +1,14 @@
 <?php
 
-namespace backend\modules\payment\models;
+namespace ikhlas\payment\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\modules\payment\models\PaymentProgress;
+use ikhlas\payment\models\PaymentProgress;
 
 /**
- * PaymentProgressSearch represents the model behind the search form about `backend\modules\payment\models\PaymentProgress`.
+ * PaymentProgressSearch represents the model behind the search form about `ikhlas\payment\models\PaymentProgress`.
  */
 class PaymentProgressSearch extends PaymentProgress
 {

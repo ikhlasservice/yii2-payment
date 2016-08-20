@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\payment\models\PaymentDraftSearch */
+/* @var $model ikhlas\payment\models\PaymentDraftSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

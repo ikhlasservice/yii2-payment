@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\payment\models\PaymentProgressSearch */
+/* @var $searchModel ikhlas\payment\models\PaymentProgressSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('payment', 'Payment Progresses');

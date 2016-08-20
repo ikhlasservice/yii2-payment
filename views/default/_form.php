@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use backend\modules\persons\models\Person;
 
 /* @var $this yii\web\View */
-/* @var $model backend\modules\payment\models\Payment */
+/* @var $model ikhlas\payment\models\Payment */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

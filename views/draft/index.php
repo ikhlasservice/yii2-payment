@@ -5,7 +5,7 @@ use yii\grid\GridView;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $searchModel backend\modules\payment\models\PaymentDraftSearch */
+/* @var $searchModel ikhlas\payment\models\PaymentDraftSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('payment', 'ร่างใบนำส่ง');

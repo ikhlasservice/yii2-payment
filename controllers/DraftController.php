@@ -1,10 +1,10 @@
 <?php
 
-namespace backend\modules\payment\controllers;
+namespace ikhlas\payment\controllers;
 
 use Yii;
-use backend\modules\payment\models\Payment;
-use backend\modules\payment\models\PaymentDraftSearch;
+use ikhlas\payment\models\Payment;
+use ikhlas\payment\models\PaymentDraftSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

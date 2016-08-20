@@ -1,16 +1,16 @@
 <?php
 
-namespace backend\modules\payment\controllers;
+namespace ikhlas\payment\controllers;
 
 use Yii;
-use backend\modules\payment\models\Payment;
-use backend\modules\payment\models\PaymentConsiderSearch;
-use backend\modules\payment\models\PaymentDetail;
-use backend\modules\contract\models\Contract;
+use ikhlas\payment\models\Payment;
+use ikhlas\payment\models\PaymentConsiderSearch;
+use ikhlas\payment\models\PaymentDetail;
+use ikhlas\contract\models\Contract;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use backend\modules\payment\models\PaymentProgress;
+use ikhlas\payment\models\PaymentProgress;
 
 /**
  * ConsiderController implements the CRUD actions for Payment model.
